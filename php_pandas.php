@@ -62,8 +62,5 @@ $index = ['A', 'B', 'C', 'D', 'E'];
 $series = new Series($data, $index);
 echo "Series Data: " . implode(', ', $series->getData()) . "\n";
 
-// Similar to Pandas, you'd define more methods for data manipulation on Series and DataFrame.
-
-// Note: This is a simplified example. In a real-world scenario, you'd need to handle various data types, error cases, and optimize performance.
-
+ 
 ?>
